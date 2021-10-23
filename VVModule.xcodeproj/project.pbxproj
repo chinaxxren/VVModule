@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82CB817E2722DEEA008B4E52 /* VVContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81692722DEE9008B4E52 /* VVContext.m */; };
-		82CB817F2722DEEA008B4E52 /* VVRouterNavigator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB816D2722DEE9008B4E52 /* VVRouterNavigator.m */; };
-		82CB81802722DEEA008B4E52 /* VVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB816E2722DEE9008B4E52 /* VVAppDelegate.m */; };
-		82CB81812722DEEA008B4E52 /* VVModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81712722DEE9008B4E52 /* VVModuleManager.m */; };
-		82CB81822722DEEA008B4E52 /* VVServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81722722DEE9008B4E52 /* VVServiceManager.m */; };
-		82CB81832722DEEA008B4E52 /* VVLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81752722DEE9008B4E52 /* VVLaunchManager.m */; };
-		82CB81842722DEEA008B4E52 /* VVNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81772722DEE9008B4E52 /* VVNotificationCenter.m */; };
-		82CB81852722DEEA008B4E52 /* VVRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81782722DEE9008B4E52 /* VVRouter.m */; };
-		82CB81862722DEEA008B4E52 /* VVModuleRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81792722DEEA008B4E52 /* VVModuleRegister.m */; };
-		82CB81872722DEEA008B4E52 /* VVMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB817C2722DEEA008B4E52 /* VVMediator.m */; };
 		82CB81892722DF0F008B4E52 /* VVModule.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82CB81882722DF0F008B4E52 /* VVModule.plist */; };
 		82CB81982722DF5D008B4E52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB818D2722DF5C008B4E52 /* AppDelegate.m */; };
 		82CB81992722DF5D008B4E52 /* TestModuleService.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB818F2722DF5C008B4E52 /* TestModuleService.m */; };
@@ -48,29 +38,6 @@
 /* Begin PBXFileReference section */
 		4A808423E3FC28C8869F6CB5 /* Pods-VVModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVModule/Pods-VVModule.debug.xcconfig"; sourceTree = "<group>"; };
 		816B128CA3C906714C332BF4 /* libPods-VVModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82C069722723BB7D00000656 /* VVModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVModule.h; sourceTree = "<group>"; };
-		82CB81682722DEE8008B4E52 /* VVModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVModuleProtocol.h; sourceTree = "<group>"; };
-		82CB81692722DEE9008B4E52 /* VVContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVContext.m; sourceTree = "<group>"; };
-		82CB816A2722DEE9008B4E52 /* VVRouterNavigator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVRouterNavigator.h; sourceTree = "<group>"; };
-		82CB816B2722DEE9008B4E52 /* VVServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVServiceProtocol.h; sourceTree = "<group>"; };
-		82CB816C2722DEE9008B4E52 /* VVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVAppDelegate.h; sourceTree = "<group>"; };
-		82CB816D2722DEE9008B4E52 /* VVRouterNavigator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVRouterNavigator.m; sourceTree = "<group>"; };
-		82CB816E2722DEE9008B4E52 /* VVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVAppDelegate.m; sourceTree = "<group>"; };
-		82CB816F2722DEE9008B4E52 /* VVMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVMediator.h; sourceTree = "<group>"; };
-		82CB81702722DEE9008B4E52 /* VVModuleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVModuleManager.h; sourceTree = "<group>"; };
-		82CB81712722DEE9008B4E52 /* VVModuleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVModuleManager.m; sourceTree = "<group>"; };
-		82CB81722722DEE9008B4E52 /* VVServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVServiceManager.m; sourceTree = "<group>"; };
-		82CB81732722DEE9008B4E52 /* VVNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVNotificationCenter.h; sourceTree = "<group>"; };
-		82CB81742722DEE9008B4E52 /* VVRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVRouter.h; sourceTree = "<group>"; };
-		82CB81752722DEE9008B4E52 /* VVLaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVLaunchManager.m; sourceTree = "<group>"; };
-		82CB81762722DEE9008B4E52 /* VVLaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVLaunchManager.h; sourceTree = "<group>"; };
-		82CB81772722DEE9008B4E52 /* VVNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVNotificationCenter.m; sourceTree = "<group>"; };
-		82CB81782722DEE9008B4E52 /* VVRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVRouter.m; sourceTree = "<group>"; };
-		82CB81792722DEEA008B4E52 /* VVModuleRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVModuleRegister.m; sourceTree = "<group>"; };
-		82CB817A2722DEEA008B4E52 /* VVContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVContext.h; sourceTree = "<group>"; };
-		82CB817B2722DEEA008B4E52 /* VVModuleRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVModuleRegister.h; sourceTree = "<group>"; };
-		82CB817C2722DEEA008B4E52 /* VVMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVMediator.m; sourceTree = "<group>"; };
-		82CB817D2722DEEA008B4E52 /* VVServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVServiceManager.h; sourceTree = "<group>"; };
 		82CB81882722DF0F008B4E52 /* VVModule.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VVModule.plist; sourceTree = "<group>"; };
 		82CB818A2722DF5C008B4E52 /* TestRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRouter.h; sourceTree = "<group>"; };
 		82CB818B2722DF5C008B4E52 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
@@ -164,7 +131,6 @@
 		B9BEADC91D253B97003303C1 /* VVModule */ = {
 			isa = PBXGroup;
 			children = (
-				B9FFD2F422B9DA6C0066D934 /* Source */,
 				B9BEADCA1D253B97003303C1 /* Supporting Files */,
 				B9BEADD61D253B97003303C1 /* Assets.xcassets */,
 				B9BEADDB1D253B97003303C1 /* Info.plist */,
@@ -203,36 +169,6 @@
 				B9BEADE41D253B97003303C1 /* VVModuleTests.m */,
 			);
 			path = VVModuleTests;
-			sourceTree = "<group>";
-		};
-		B9FFD2F422B9DA6C0066D934 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				82CB816C2722DEE9008B4E52 /* VVAppDelegate.h */,
-				82CB816E2722DEE9008B4E52 /* VVAppDelegate.m */,
-				82CB817A2722DEEA008B4E52 /* VVContext.h */,
-				82CB81692722DEE9008B4E52 /* VVContext.m */,
-				82CB81762722DEE9008B4E52 /* VVLaunchManager.h */,
-				82CB81752722DEE9008B4E52 /* VVLaunchManager.m */,
-				82CB816F2722DEE9008B4E52 /* VVMediator.h */,
-				82CB817C2722DEEA008B4E52 /* VVMediator.m */,
-				82CB81702722DEE9008B4E52 /* VVModuleManager.h */,
-				82CB81712722DEE9008B4E52 /* VVModuleManager.m */,
-				82CB81682722DEE8008B4E52 /* VVModuleProtocol.h */,
-				82CB817B2722DEEA008B4E52 /* VVModuleRegister.h */,
-				82CB81792722DEEA008B4E52 /* VVModuleRegister.m */,
-				82CB81732722DEE9008B4E52 /* VVNotificationCenter.h */,
-				82CB81772722DEE9008B4E52 /* VVNotificationCenter.m */,
-				82CB81742722DEE9008B4E52 /* VVRouter.h */,
-				82CB81782722DEE9008B4E52 /* VVRouter.m */,
-				82CB816A2722DEE9008B4E52 /* VVRouterNavigator.h */,
-				82CB816D2722DEE9008B4E52 /* VVRouterNavigator.m */,
-				82CB817D2722DEEA008B4E52 /* VVServiceManager.h */,
-				82CB81722722DEE9008B4E52 /* VVServiceManager.m */,
-				82CB816B2722DEE9008B4E52 /* VVServiceProtocol.h */,
-				82C069722723BB7D00000656 /* VVModule.h */,
-			);
-			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,22 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				82CB819E2722DF5D008B4E52 /* VVMediator+Test.m in Sources */,
-				82CB81802722DEEA008B4E52 /* VVAppDelegate.m in Sources */,
 				82CB819B2722DF5D008B4E52 /* TestModule.m in Sources */,
-				82CB81872722DEEA008B4E52 /* VVMediator.m in Sources */,
 				82CB819D2722DF5D008B4E52 /* ViewController1.m in Sources */,
 				82CB819A2722DF5D008B4E52 /* TestRouter.m in Sources */,
-				82CB81832722DEEA008B4E52 /* VVLaunchManager.m in Sources */,
-				82CB81812722DEEA008B4E52 /* VVModuleManager.m in Sources */,
-				82CB817F2722DEEA008B4E52 /* VVRouterNavigator.m in Sources */,
-				82CB81852722DEEA008B4E52 /* VVRouter.m in Sources */,
-				82CB81822722DEEA008B4E52 /* VVServiceManager.m in Sources */,
-				82CB81862722DEEA008B4E52 /* VVModuleRegister.m in Sources */,
 				82CB81982722DF5D008B4E52 /* AppDelegate.m in Sources */,
 				B9BEADCC1D253B97003303C1 /* main.m in Sources */,
-				82CB817E2722DEEA008B4E52 /* VVContext.m in Sources */,
 				82CB819C2722DF5D008B4E52 /* ViewController2.m in Sources */,
-				82CB81842722DEEA008B4E52 /* VVNotificationCenter.m in Sources */,
 				82CB81992722DF5D008B4E52 /* TestModuleService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

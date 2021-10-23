@@ -5,6 +5,8 @@
 
 #import "AppDelegate.h"
 
+#import <VVModule/VVModule.h>
+
 #import "ViewController1.h"
 #import "TestModule.h"
 #import "TestModuleService.h"
@@ -36,8 +38,16 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController1 new]];
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"%s",__func__);
+    [[VVLaunchManager sharedInstance] executeArrayForKey:kVVLauncherStageA];
 
     return result;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    NSLog(@"%s",__func__);
+    [[VVLaunchManager sharedInstance] executeArrayForKey:kVVLauncherStageB];
 }
 
 static BOOL login = NO;

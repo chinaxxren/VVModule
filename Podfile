@@ -1,6 +1,7 @@
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target "VVModule" do
-    
+    pod 'VVModule', :path => './Local/VVModule/'
+    pod 'VVTestModule'
 end
