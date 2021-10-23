@@ -40,14 +40,14 @@
     [self.window makeKeyAndVisible];
     
     NSLog(@"%s",__func__);
-    [[VVLaunchManager sharedInstance] executeArrayForKey:kVVLauncherStageA];
+    [[VVLaunchManager sharedInstance] executeArrayForKey:kVVLauncherStage(@"A")];
 
     return result;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     NSLog(@"%s",__func__);
-    [[VVLaunchManager sharedInstance] executeArrayForKey:kVVLauncherStageB];
+    [[VVLaunchManager sharedInstance] executeArrayForKey:kVVLauncherStage(@"B")];
 }
 
 static BOOL login = NO;
