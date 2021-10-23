@@ -5,15 +5,6 @@
 
 #import "VVRouter.h"
 
-//NSString *VVRouterNameFromString(NSString *str) {
-//    NSString *routerName = str;
-//    if (![[routerName lowercaseString] hasSuffix:@"router"]) {
-//        routerName = [routerName stringByAppendingString:@"Router"];
-//    }
-//    return routerName;
-//}
-//
-
 SEL VVRouterActionSelectorFromString(NSString *str) {
     NSString *actionName = str;
     if (![actionName hasPrefix:@"vv_router_"]) {
@@ -22,14 +13,3 @@ SEL VVRouterActionSelectorFromString(NSString *str) {
     return NSSelectorFromString(actionName);
 }
 
-//@implementation VVRouter
-//
-//+ (NSString *)routerName {
-//    NSString *routerName = NSStringFromClass(self);
-//    if (![[routerName lowercaseString] hasSuffix:@"router"]) {
-//        routerName = [routerName stringByAppendingString:@"Router"];
-//    }
-//    return routerName;
-//}
-
-//@end
