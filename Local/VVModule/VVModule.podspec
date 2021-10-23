@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "chinaxxren" => "182421693@qq.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "git@github.com:chinaxxren/VVModule.git", :tag => "#{spec.version}" }
-  spec.source_files  = "./Local/VVModule/Source", "./Local/VVModule/Source/**/*.*"
+  spec.source_files  = "Local/VVModule/Source", "Local/VVModule/Source/**/*.*"
   spec.frameworks  = "UIKit"
 end
