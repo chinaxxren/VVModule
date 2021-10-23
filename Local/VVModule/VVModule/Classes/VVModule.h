@@ -9,6 +9,8 @@
 #ifndef VVModule_h
 #define VVModule_h
 
+#import "VVModuleConst.h"
+
 // 协议
 #import "VVServiceProtocol.h"
 #import "VVModuleProtocol.h"

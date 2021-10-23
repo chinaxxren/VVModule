@@ -5,6 +5,7 @@
 
 
 #import "VVRouterNavigator.h"
+#import "VVModuleConst.h"
 
 @implementation VVRouterNavigator
 
@@ -30,7 +31,7 @@
             [self presentViewController:controller];
             break;
         case VVRouterNavigationNone:
-            NSLog(@"Internal error.");
+            VV_Module_Log(@"Internal error.");
             break;
         default:
             break;

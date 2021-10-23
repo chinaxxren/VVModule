@@ -15,9 +15,8 @@ struct VV_Function {
     void (*function)(void);
 };
 
-#define kVVLauncherStagePreMain @"Pre_main"
-#define kVVLauncherStageA @"Stage_A"
-#define kVVLauncherStageB @"Stage_B"
+#define kVVLauncherStagePreMain @"Pre_Main"
+#define kVVLauncherStage(M) [@"Stage_" stringByAppendingString:M]
 
 #define kVVLauncherPriorityHigh LONG_MAX
 #define kVVLauncherPriorityDefault 0

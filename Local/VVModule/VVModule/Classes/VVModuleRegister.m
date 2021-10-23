@@ -11,6 +11,7 @@
 #include <mach-o/dyld.h>
 
 #import "VVContext.h"
+#import "VVModuleConst.h"
 
 static NSString *const VV_PLIST_APPURLSCHEME_KEY = @"AppURLSchemes";
 static NSString *const VV_PLIST_MODULE_KEY = @"ModuleClasses";
@@ -172,7 +173,7 @@ NSArray<NSString *> *VVReadConfiguration(char *sectionName, const struct mach_he
     }
     
     if ([configs count] > 0) {
-        NSLog(@"config===>%@",configs);
+        VV_Module_Log(@"config===>%@",configs);
     }
     
     return configs;

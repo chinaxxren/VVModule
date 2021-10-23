@@ -99,16 +99,7 @@ void premain() {
 }
 
 - (void)executeArrayForKey:(NSString *)key {
-
-    if ([key isEqualToString:kVVLauncherStagePreMain]) {
-        NSLog(@"\n\n------------------------  Pre_main start ------------------------\n\n");
-
-    } else if ([key isEqualToString:kVVLauncherStageA]) {
-        NSLog(@"\n\n------------------------  Stage_A start ------------------------\n\n");
-
-    } else if ([key isEqualToString:kVVLauncherStageB]) {
-        NSLog(@"\n\n------------------------  Stage_B start ------------------------\n\n");
-    }
+    NSLog(@"\n\n------------------------  %@ start ------------------------\n\n",key);
 
     NSMutableArray *arrayModule;
     if (![self.moduleDic count]) {

@@ -6,7 +6,7 @@
 
 #import "VVMediator.h"
 
-#import "VVServiceManager.h"
+#import "VVModuleConst.h"
 #import "VVRouter.h"
 #import "VVModuleRegister.h"
 #import "VVRouterNavigator.h"
@@ -93,7 +93,7 @@ static inline NSMutableDictionary *VVDictionaryFromURLQueryString(NSString *quer
 
     BOOL isAuthCheck = [params[IsCheckRouter] boolValue];
     if (isAuthCheck) {
-        NSLog(@"%@", @"Authorization required");
+        VV_Module_Log(@"%@", @"Authorization required");
         __weak typeof(self) weakSelf = self;
         if ([self.deleagate respondsToSelector:@selector(mediator:params:checkAuthRetryPerformActionHandler:)]) {
             if (![self.deleagate mediator:self params:params checkAuthRetryPerformActionHandler:^{
