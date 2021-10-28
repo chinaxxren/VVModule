@@ -7,7 +7,7 @@
 
 #import <VVModule/VVModule.h>
 
-#import "ViewController1.h"
+#import "MainController.h"
 #import "TestModule.h"
 #import "TestModuleService.h"
 #import "TestRouter.h"
@@ -36,7 +36,7 @@
     BOOL result = [super application:application didFinishLaunchingWithOptions:launchOptions];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController1 new]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[MainController new]];
     [self.window makeKeyAndVisible];
     
     NSLog(@"%s",__func__);

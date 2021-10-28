@@ -15,6 +15,8 @@
 		82CB819C2722DF5D008B4E52 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81932722DF5D008B4E52 /* ViewController2.m */; };
 		82CB819D2722DF5D008B4E52 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81962722DF5D008B4E52 /* ViewController1.m */; };
 		82CB819E2722DF5D008B4E52 /* VVMediator+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CB81972722DF5D008B4E52 /* VVMediator+Test.m */; };
+		B6D6157B307F3DBEA8C5F1BB /* EventController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D616F2A2393DDF0313C05A /* EventController.m */; };
+		B6D61DB8D416F8C826C21FDD /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D613F8EBD4A6806D880855 /* MainController.m */; };
 		B93169BB1F16069B00415528 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B93169BA1F16069B00415528 /* Podfile */; };
 		B9BEADCC1D253B97003303C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEADCB1D253B97003303C1 /* main.m */; };
 		B9BEADD71D253B97003303C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BEADD61D253B97003303C1 /* Assets.xcassets */; };
@@ -54,6 +56,10 @@
 		82CB81962722DF5D008B4E52 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		82CB81972722DF5D008B4E52 /* VVMediator+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VVMediator+Test.m"; sourceTree = "<group>"; };
 		8737FAF01B99493FA9265288 /* Pods-VVModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVModule/Pods-VVModule.release.xcconfig"; sourceTree = "<group>"; };
+		B6D613F8EBD4A6806D880855 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		B6D616F2A2393DDF0313C05A /* EventController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventController.m; sourceTree = "<group>"; };
+		B6D61A7A3E24204B427DE859 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		B6D61C44CA6CB80F0974FBAF /* EventController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventController.h; sourceTree = "<group>"; };
 		B93169BA1F16069B00415528 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9BEADC71D253B97003303C1 /* VVModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BEADCB1D253B97003303C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -149,6 +155,10 @@
 				82CB81932722DF5D008B4E52 /* ViewController2.m */,
 				82CB818E2722DF5C008B4E52 /* VVMediator+Test.h */,
 				82CB81972722DF5D008B4E52 /* VVMediator+Test.m */,
+				B6D613F8EBD4A6806D880855 /* MainController.m */,
+				B6D61A7A3E24204B427DE859 /* MainController.h */,
+				B6D616F2A2393DDF0313C05A /* EventController.m */,
+				B6D61C44CA6CB80F0974FBAF /* EventController.h */,
 			);
 			path = VVModule;
 			sourceTree = "<group>";
@@ -309,6 +319,8 @@
 				B9BEADCC1D253B97003303C1 /* main.m in Sources */,
 				82CB819C2722DF5D008B4E52 /* ViewController2.m in Sources */,
 				82CB81992722DF5D008B4E52 /* TestModuleService.m in Sources */,
+				B6D61DB8D416F8C826C21FDD /* MainController.m in Sources */,
+				B6D6157B307F3DBEA8C5F1BB /* EventController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
