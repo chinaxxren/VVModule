@@ -8,13 +8,11 @@ Pod::Spec.new do |spec|
   spec.author       = { "chinaxxren" => "jiangmingz@qq.com" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "git@github.com:chinaxxren/VVModule.git", :tag => "#{spec.version}" }
-  spec.source_files = 'Source/Classes/**/*'
-  spec.public_header_files = 'Source/Classes/**/*.h'
   spec.frameworks  = "UIKit"
   
   spec.subspec 'Module' do |ss|
     ss.source_files = 'Source/Module/**/*.{h,m}'
-    ss.public_header_files = 'Source/Modul/**/*.h'
+    ss.public_header_files = 'Source/Module/**/*.h'
   end
   
   spec.subspec 'EventBus' do |ss|
